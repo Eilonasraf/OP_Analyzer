@@ -73,7 +73,7 @@ GET http://localhost:3000/analyze?dataSourceName=Github&analysisFlowId=1
 ---
 
 ## **🔹 Expected API Responses**
-### ** Step 1 - Fetch data from Github: (`detectMentionedIssues`)**
+### **Step 1 - Fetch data from Github: (`detectMentionedIssues`)**
 ```json
 {
     "message": "Analysis completed!",
