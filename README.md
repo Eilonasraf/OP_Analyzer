@@ -6,6 +6,20 @@ The OP Analyzer API is a RESTful API built with Node.js and Express.js that:
 3. Returns structured JSON responses for easy integration with other applications.
 4. Allows testing using **`api.rest`** in VS Code for quick API requests.
 
+## **🔹 Cloning the Project**
+To get started with the OP Analyzer API, clone the repository and install dependencies:
+```sh
+# Clone the repository
+git clone <repository-url>
+cd OP_Analyzer
+
+# Install dependencies
+npm install
+```
+Then, start the API:
+```sh
+npm start
+```
 ---
 
 ## **🔹 How It Works**
