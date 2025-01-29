@@ -1,0 +1,13 @@
+### Fetch raw Stack Overflow data
+GET http://localhost:3000/fetch?dataSourceName=Stackoverflow
+
+### Detect Top Technologies in Stack Overflow Titles
+GET http://localhost:3000/analyze?dataSourceName=Stackoverflow&analysisFlowId=1
+
+###############################################################################
+
+### Fetch raw GitHub commit messages
+GET http://localhost:3000/fetch?dataSourceName=Github
+
+### detectMentionedIssues in GitHub Commits
+GET http://localhost:3000/analyze?dataSourceName=Github&analysisFlowId=1
