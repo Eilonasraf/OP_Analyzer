@@ -44,7 +44,7 @@ function applyGitHubAnalysis(data, flowId) {
 const TECH_TERMS = new Set([
     "bootstrap", "react", "angular",
     "vue", "javascript", "css", "html", "node.js",
-    "highcharts", "json", "django", "c#"
+    "highcharts", "json", "django", "c#", "pandas", "image",
 ]);
 
 function detectTopTechnologies(data, k = 3) {
